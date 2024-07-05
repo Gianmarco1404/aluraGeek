@@ -1,0 +1,238 @@
+/**Globales**/
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/**Globales**/
+.contenedor{
+    max-width: 1400px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+h1{
+    font-size: 4.8rem;
+}
+h2{
+    font-size: 4rem;
+    line-height: 1.2;
+}
+h3{
+    font-size: 3.2rem;
+}
+h4{
+    font-size: 2.8rem;
+}
+img{
+    max-width: 100%;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/**Header**/
+.header{
+    background-color: #5300C8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P';
+    font-size: 1.1rem;
+}
+.corazon{
+    color: red;
+    margin-right: 1rem;
+    font-size: 2.4rem;
+}
+.nombre-pagina{
+    color: #fff;
+    font-size: 2.4rem;
+    margin: 2rem 0;
+}
+
+/** Productos**/
+@media(max-width:768px){
+    .contenedor{
+        flex-direction: column-reverse
+    };
+}
+.listado-productos{
+    margin-right: 3rem;
+    flex: 0 0 calc(50% - 1rem);
+}
+.listado-productos h1{
+    font-family: 'Press Start 2P';
+    font-size: 2.4rem;
+    text-align: center;
+}
+#mis-productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    overflow-y: auto;
+    height: 60vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    
+}
+#mis-productos::-webkit-scrollbar{
+    width: 0.8rem;
+}
+#mis-productos::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 1rem; 
+}
+#mis-productos::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 1rem; 
+}
+#mis-productos::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.producto{
+    background-color: #5D04D9;
+    border: 3px solid #000000;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: calc(100% - 10rem);
+    flex: 0 0 calc(33.3% - 1rem);
+}
+.producto img{
+    object-fit:fill;
+    width: 100%;
+    height: calc(100% - 10rem); 
+    border: 3px solid #000000;
+}
+.contenedor-informacion-producto{
+    font-family: 'IBM Plex Mono';
+}
+.contenedor-informacion-producto{
+    font-family: 'IBM Plex Mono';
+}
+.contenedor-informacion-producto p{
+    font-size: 1rem;
+    color: #fff;
+}
+.contenedor-valor-producto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.contenedor-valor-producto p{
+    font-size: 1.6rem;
+}
+.contenedor-valor-producto i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+@media(max-width:768px){
+    .contenedor{
+        flex-direction: column-reverse
+    };
+}
+@media(max-width:992px){
+    .producto{
+        flex: 0 0 calc(50% - 1rem);
+    }
+} 
+@media(max-width:768px){
+    .producto{
+        flex: 0 0 calc(50% - 1rem);
+    }
+    .contenedor-informacion-producto p{
+        font-size: 1.2rem;
+    }
+
+}
+@media(max-width:576px){
+    .producto{
+        flex: 0 0 calc(100%);
+    }
+    .contenedor-informacion-producto p{
+        font-size: 1.2rem;
+    }
+
+} 
+
+/** Formulario**/
+#formulario-producto{
+    flex: 0 0 calc(50% - 1rem);
+    box-sizing: border-box;
+}
+#formulario-producto h1{
+    font-family: 'Press Start 2P';
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 5px 10px;
+}
+#form-agregar-producto{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+#form-agregar-producto input{
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    border: 2px solid #03318C;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+}
+.botones-formulario{
+    display: flex;
+    justify-content: space-evenly;
+}
+.botones-formulario button{
+    padding: 1rem 4rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: 2px solid #03318C;
+    font-size: 1.6rem;
+
+}
+.enviar{
+    background-color: #03318C;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+.limpiar{
+    background-color: #fff;
+    color: #03318C;
+    transition: background-color 0.3s ease-in-out;
+}
+.enviar:hover{
+    background-color: #fff;
+    color: #03318C;
+}
+.limpiar:hover{
+    background-color: #03318C;
+    color: #fff;
+}
+/**Footer**/
+.footer{
+    background-color: #5300C8;
+    font-family: 'Press Start 2P';
+    font-size: 1.1rem;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    font-family: 'IBM Plex Mono';
+    text-align: center;
+    margin: 0 0 1.2rem 0;
+    color: #fff;
+}
+.anio{
+    margin-bottom: 0!important;
+}

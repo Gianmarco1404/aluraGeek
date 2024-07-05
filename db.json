@@ -1,0 +1,46 @@
+{
+    "productos":[
+        {
+            "id":1,
+            "nombre":"Adorno de Star Wars",
+            "precio":17,
+            "imagen":"https://www.get-digital.es/web/img/products/238x238/19605ST_Christbaumschmuck_main.220426.webp"
+        },
+        {
+            "id":2,
+            "nombre":"Lampara de lava",
+            "precio":29,
+            "imagen":"https://www.get-digital.es/web/img/products/238x238/12516Plasma_Lampe_01q.220426.webp"
+        },
+        {
+            "id":3,
+            "nombre":"Funko Pop de Wolwerine",
+            "precio":17,
+            "imagen":"https://sgeek.pe/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-21-at-1.04.28-PM.jpeg"
+        },
+        {
+            "id":4,
+            "nombre":"Figura de Zenitsu de Demon Slayer",
+            "precio":180,
+            "imagen":"https://sgeek.pe/wp-content/uploads/2023/07/imageUrl_1-9.webp"
+        },
+        {
+            "id":5,
+            "nombre":"Assassins Creed Unity",
+            "precio":16,
+            "imagen":"https://yadimania.com/wp-content/uploads/2021/06/Assassins-Unity.webp"
+        },
+        {
+            "id":6,
+            "nombre":"Consola Xbox Series X",
+            "precio":900,
+            "imagen":"https://yadimania.com/wp-content/uploads/2021/01/xbox-serie-x.jpg"
+        },
+        {
+            "id":7,
+            "nombre":"Mando DualSense PS5 StarLight Blue",
+            "precio":92,
+            "imagen":"https://yadimania.com/wp-content/uploads/2022/08/ds5_celeste.webp"
+        }
+    ]
+}

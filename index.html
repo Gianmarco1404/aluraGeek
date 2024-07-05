@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/801f9c15b3.js" crossorigin="anonymous"></script>
+    
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="header">
+        <i class="fa-regular fa-heart corazon"></i>
+        <i class="fa-regular fa-heart corazon"></i>
+        <i class="fa-regular fa-heart corazon"></i>
+        <p class="nombre-pagina">AluraGeek</p>
+    </header>
+    <main class="contenedor">
+        <section class="listado-productos">
+            <h1>Mis productos</h1>
+            <div id="mensaje-no-productos">No se han agregado productos</div>
+            <div id="mis-productos"></div>
+        </section>
+        <section id="formulario-producto">
+            <h1>Agregar producto</h1>
+            <form action="" id="form-agregar-producto">
+                <input type="text" id="nombre" placeholder="Nombre..." required>
+                <input type="number" id="precio" placeholder="Precio..." required>
+                <input type="text" id="imagen" placeholder="Imagen..." required>
+                <div class="botones-formulario">
+                    <button type="submit" class="enviar">Enviar</button>
+                    <button type="reset" class="limpiar">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="logo-footer">
+            <i class="fa-regular fa-heart corazon"></i>
+            <i class="fa-regular fa-heart corazon"></i>
+            <i class="fa-regular fa-heart corazon"></i>
+            <p class="nombre-pagina">AluraGeek</p>
+        </div>
+        <p>Desarrollado por Gianmarco</p>
+        <p class="anio">2024</p>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
